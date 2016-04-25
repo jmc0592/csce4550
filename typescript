@@ -1,0 +1,98 @@
+Script started on Wed 02 Dec 2015 09:15:52 AM CST
+]0;jmc0592@cse01: ~/4550/finalProjectjmc0592@cse01:~/4550/finalProject$ g++ main.cpp 
+]0;jmc0592@cse01: ~/4550/finalProjectjmc0592@cse01:~/4550/finalProject$ ./a.out
+Enter the name of the plaintext file: input2.txt
+Enter the name of the key file: key2.txt
+Enter the name of the output file: output.txt
+---Start of AES---
+
+Preprocessing:
+ENCRYPTTHISMESSAGEUSINGTHEALGORITHMDESCRIBEDBELOW
+
+Substitution:
+WVOGJTXQHUHXICWYYMGHTRKQHQPWKYVGLPYSPWGOINTOFOPMO
+
+Padding: 
+WVOG
+JTXQ
+HUHX
+ICWY
+
+YMGH
+TRKQ
+HQPW
+KYVG
+
+LPYS
+PWGO
+INTO
+FOPM
+
+OAAA
+AAAA
+AAAA
+AAAA
+
+ShiftRows:
+WVOG
+TXQJ
+HXHU
+YICW
+
+YMGH
+RKQT
+PWHQ
+GKYV
+
+LPYS
+WGOP
+TOIN
+MFOP
+
+OAAA
+AAAA
+AAAA
+AAAA
+
+Parity Bit: 
+d7 56 cf 47
+d4 d8 d1 ca
+48 d8 48 55
+59 c9 c3 d7
+59 4d 47 48
+d2 4b d1 d4
+50 d7 48 d1
+47 4b 59 56
+cc 50 59 53
+d7 47 cf 50
+d4 cf c9 4e
+4d c6 cf 50
+cf 41 41 41
+41 41 41 41
+41 41 41 41
+41 41 41 41
+
+MixColumns: 
+c3 ce 66 49
+e5 47 6d e0
+78 65 d0 45
+4c 73 4e e3
+c8 db f7 70
+51 f2 7f c5
+e2 6e ed df
+e7 dd e2 71
+78 60 fe 48
+53 52 53 71
+7f c3 55 6f
+d6 ef 68 4b
+46 41 41 41
+cf 41 41 41
+cf 41 41 41
+c8 41 41 41
+
+
+---End of AES---
+]0;jmc0592@cse01: ~/4550/finalProjectjmc0592@cse01:~/4550/finalProject$ exit
+exit
+
+Script done on Wed 02 Dec 2015 09:16:09 AM CST
